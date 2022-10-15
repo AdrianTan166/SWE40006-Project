@@ -25,9 +25,14 @@ function Navbar(){
 
     return(
 
-        <div>
+        <div className = "home_area">
         <nav className = {navbar ? 'navbar active' : 'navbar'}>
             
+        <input type = "checkbox" id="check"></input>
+            <label for = "check" className ="checkbtn">
+                <FontAwesomeIcon icon={faBars} />
+            </label>
+
             <ul >
                 <li ><a href = "Home.js">Home</a></li>
                 <li ><a href = "Recipe.js"></a>Recipe</li>
