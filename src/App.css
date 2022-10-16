@@ -123,9 +123,8 @@ nav ul li a{
     height: 100vh;
     background: rgb(129, 159, 194);
     top: 80px;
-    left: -100%;
+    left: -105%;
     text-align: center;
-    transition: all 5s;
   }
 
   nav ul li{

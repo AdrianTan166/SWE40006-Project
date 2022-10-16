@@ -35,8 +35,8 @@ function Navbar(){
             </label>
 
             <ul >
-//                <li ><a href = "Home.js">Home</a></li>
-//                <li ><a href = "Recipe.js"></a>Recipe</li>
+                {/* <li ><a href = "Home.js">Home</a></li>
+                <li ><a href = "Recipe.js"></a>Recipe</li> */}
 
                   <li> <NavLink className = "nav-link" to = "/Home">Home</NavLink> </li>
                   <li> <NavLink className = "nav-link" to = "/Recipe">Recipes</NavLink></li>
