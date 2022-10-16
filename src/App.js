@@ -13,7 +13,7 @@ function App() {
 
             <Routes>
               <Route path = "./" exact component = {() => <Home/>} />
-              <Route path = "./" exact component = {() => <Recipe/>} />
+              <Route path = "./Recipe" exact component = {() => <Recipe/>} />
             </Routes>
 
             </Router>
