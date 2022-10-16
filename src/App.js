@@ -8,20 +8,16 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-      <Router>
+        <Router>
             <Navbar/>
-
             <Routes>
-              <Route path = "./" exact component = {() => <Home/>} />
-              <Route path = "./Recipe" exact component = {() => <Recipe/>} />
+              <Route exact path = "/Home" element = {<Home/>} />
+              <Route exact path = "/Recipe" element = {<Recipe/>} />
             </Routes>
-
-            </Router>
-
-            <div>
-
-                  <header className ="web-name">FOOD NATION</header>
-              </div>
+        </Router>
+        <div>
+            <header className ="web-name">FOOD NATION</header>
+        </div>
     </div>
   );
 }
