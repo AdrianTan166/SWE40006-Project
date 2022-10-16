@@ -6,7 +6,7 @@ function Recipe() {
     return (
         
       <div>
-          
+
       </div>
     )
 }
