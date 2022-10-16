@@ -120,6 +120,7 @@ nav ul li a{
   {
     position: relative;
     width: 100%;
+    height: 100vh;
     background: rgb(129, 159, 194);
     top: 80px;
     left: -100%;
@@ -151,11 +152,14 @@ nav ul li a{
 
 .web-name
 {
-  text-align: center;
-  position: relative;
-  top: 300px;
-  font-size: 60px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  width: 600px;
+  height: 100px;
+  left: 50%;
+  top: 400px;
+  content: "" ;
+  margin-left: -250px;
+  font-size: 80px;
   color: rgb(90, 85, 85);
 }
 
