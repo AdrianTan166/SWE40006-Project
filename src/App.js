@@ -16,6 +16,9 @@ function App() {
                     <Route exact path="/Recipe" element={<Recipe/>}/>
                 </Routes>
             </Router>
+            <div>
+                <header className ="web-name">FOOD NATION</header>
+            </div>
         </div>
     );
 }
