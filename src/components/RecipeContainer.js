@@ -6,7 +6,7 @@ function RecipeContainer(props) {
     return (
         
       <div className="recipe-container">
-          <img className="recipe-image" src={props.imgPath}></img>
+          <img className="recipe-image" alt="" src={props.imgPath}></img>
           <div className="spacer"/>
           <h1>{props.name}</h1>
           <div className="spacer"/>
