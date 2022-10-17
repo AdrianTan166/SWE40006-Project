@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
         <div>
-            {/*<header className ="web-name">FOOD NATION</header>*/}
+            <header className ="web-name">FOOD NATION</header>
         </div>
         <Router>
             <Navbar/>
