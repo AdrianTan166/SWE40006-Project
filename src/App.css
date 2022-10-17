@@ -12,11 +12,13 @@
 .wrapper {
   width: 100%;
 }
-
-
-
+html
+{
+  height: 100%;
+}
 
 body {
+  height: 100%;
   background-color: rgb(195, 215, 241);
   /* overflow-x: hidden ; */
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -162,4 +164,64 @@ nav ul li a{
   color: rgb(90, 85, 85);
 }
 
+.centre-div
+{
+  height: 80vh;
+  margin: auto;
+  width: 80%;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 10px;
+}
 
+.recipe-table
+{
+  margin: auto;
+  width: 100%;
+  table-layout: fixed;
+}
+.recipe-column
+{
+  padding: 20px;
+  margin: auto;
+  width: 60%;
+  border-width: 10px;
+  border-color: aqua;
+}
+
+.recipe-container
+{
+  height: 70vh;
+  margin: auto;
+  width: 80%;
+  padding: 30px;
+  background-color: mintcream;
+  border-radius: 10px;
+}
+
+.recipe-image
+{
+  border-radius: 10px;
+  display: block;
+  max-width:100%;
+  max-height:100%;
+  width: auto;
+  height: auto;
+}
+
+.spacer
+{
+  height: 20px;
+}
+
+.divider
+{
+  height: 1px;
+  background-color: gray;
+  width: 100%;
+}
+
+.centred-header
+{
+  text-align: center;
+}
