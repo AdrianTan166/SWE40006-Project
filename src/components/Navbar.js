@@ -28,7 +28,7 @@ function Navbar(){
 
         <div className = "home_area">
         <nav className = {navbar ? 'navbar active' : 'navbar'}>
-            
+           
         <input type = "checkbox" id="check"></input>
             <label for = "check" className ="checkbtn">
                 <FontAwesomeIcon icon={faBars} />
@@ -37,8 +37,7 @@ function Navbar(){
             <ul >
                 {/* <li ><a href = "Home.js">Home</a></li>
                 <li ><a href = "Recipe.js"></a>Recipe</li> */}
-
-                  <li> <NavLink className = "nav-link" to = "/">Home</NavLink> </li>
+                  <li> <NavLink className = "nav-link" to = "/Home">Home</NavLink> </li>
                   <li> <NavLink className = "nav-link" to = "/Recipe">Recipes</NavLink></li>
                 
             </ul>

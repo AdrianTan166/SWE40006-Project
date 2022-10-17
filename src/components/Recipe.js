@@ -12,9 +12,7 @@ function Recipe() {
           <table className="recipe-table">
               <tr>
                   <th className="recipe-column">
-
                     <RecipeContainer
-
                         linkPath = "/Carbonara"
                         imgPath="https://myfoodbook.com.au/sites/default/files/styles/schema_img/public/recipe_photo/perfect_italiano_fettucine_carbonara.jpg"
                         name="Carbonara"
