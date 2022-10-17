@@ -8,6 +8,9 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div className="App">
+        <div>
+            {/*<header className ="web-name">FOOD NATION</header>*/}
+        </div>
         <Router>
             <Navbar/>
             <Routes>
@@ -15,9 +18,7 @@ function App() {
               <Route exact path = "/Recipe" element = {<Recipe/>} />
             </Routes>
         </Router>
-        <div>
-            <header className ="web-name">FOOD NATION</header>
-        </div>
+
     </div>
   );
 }
