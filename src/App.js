@@ -16,7 +16,7 @@ function App() {
             </Routes>
         </Router>
         <div>
-            <header className ="web-name">FOOD NATION</header>
+            <header role = "heading" className ="web-name">FOOD NATION</header>
         </div>
     </div>
   );
