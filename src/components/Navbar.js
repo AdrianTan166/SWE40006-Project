@@ -1,5 +1,4 @@
-import React from 'react'
-import {useState, useEffect} from 'react'
+import React, {useState} from 'react'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faBowlFood} from '@fortawesome/free-solid-svg-icons'
 import {faBars} from '@fortawesome/free-solid-svg-icons'
@@ -29,8 +28,8 @@ function Navbar(){
         <div className = "home_area">
         <nav className = {navbar ? 'navbar active' : 'navbar'}>
             
-        <input type = "checkbox" id="check"></input>
-            <label for = "check" className ="checkbtn">
+        <input type = "checkbox" id="check"/>
+            <label form= "check" className ="checkbtn">
                 <FontAwesomeIcon icon={faBars} />
             </label>
 
