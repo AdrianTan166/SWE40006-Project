@@ -7,7 +7,7 @@ function RecipeContainer(props) {
 
       <div className="recipe-container">
           <Link to = {props.linkPath} >
-          <img className="recipe-image" alt="" src={props.imgPath}/>
+            <img className="recipe-image" alt="" src={props.imgPath}/>
           </Link>
           <div className="spacer"/>
           <h1>{props.name}</h1>
