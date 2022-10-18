@@ -225,3 +225,71 @@ nav ul li a{
 {
   text-align: center;
 }
+
+.cc-centre-div
+{
+  height: 130vh;
+  margin: auto;
+  width: 80%;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.cooking-container
+{
+  height: 70vh;
+  margin: auto;
+  width: 90%;
+  padding: 30px;
+  background-color: mintcream;
+  border-radius: 10px;
+}
+
+.cooking-container li
+{
+    line-height: 1.2em;
+}
+
+.cc-spacer
+{
+  height: 20px;
+}
+
+.cc-divider
+{
+  height: 1px;
+  background-color: gray;
+  width: 100%;
+}
+
+.cooking-image
+{
+  border-radius: 10px;
+  left: 50%;
+  display: block;
+  max-width:100%;
+  max-height:100%;
+  width: auto;
+  height: auto;
+}
+
+.ramen-cc-centre-div
+{
+  height: 150vh;
+  margin: auto;
+  width: 80%;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.ramen-cooking-container
+{
+  height: 70vh;
+  margin: auto;
+  width: 90%;
+  padding: 30px;
+  background-color: mintcream;
+  border-radius: 10px;
+}
