@@ -1,9 +1,5 @@
 import React from 'react';
 import RecipeContainer from "./RecipeContainer";
-import { BrowserRouter as Router, Route, Routes, Link} from "react-router-dom";
-import Carbonara from '../components/Carbonara'
-import Ramen from '../components/Ramen'
-
  
 function Recipe() {
 
