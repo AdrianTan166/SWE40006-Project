@@ -7,7 +7,7 @@ function CookingContainer(props) {
 
       <div className="cooking-container">
 
-          <img className="cooking-image" alt=""src={props.imgPath}></img>
+          <img className="cooking-image" alt="" src={props.imgPath}></img>
           <div className="cc-spacer"/>
           <h1>{props.name}</h1>
           <div className="cc-spacer"/>
